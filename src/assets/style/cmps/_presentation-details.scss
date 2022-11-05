@@ -1,0 +1,28 @@
+.presentation-details-container {
+    display: flex;
+    gap: 15px;
+    div {
+        bottom: 20%;
+    }
+    aside {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        margin-top: 10px;
+        h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: $primaryTxt;
+        }
+        h4 {
+            font-weight: 600;
+            a {
+                color: $secondaryTxt;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

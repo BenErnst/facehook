@@ -1,0 +1,59 @@
+.app-header-container {
+    height: $headerHeight;
+    .app-header {
+        position: fixed;
+        z-index: 1;
+        background: $panelsBg;
+        color: $secondaryTxt;
+        width: 100%;
+        height: $headerHeight;
+        display: flex;
+        align-items: center;
+        padding: 2px 8px;
+        justify-content: space-between;
+        .leftContainer {
+            display: flex;
+            img {
+                cursor: pointer;
+                transform: scale(0.95);
+            }
+            input {
+                background: rgb(58, 58, 58);
+                color: $secondaryTxt;
+                border-radius: 30px;
+                border: none;
+                margin: 5px;
+                // padding: 1%;
+                padding: 11px;
+                font-size: 16px;
+                // &::-webkit-input-placeholder {
+                //     transition: all 2s;
+                // }
+            }
+        }
+        .rightContainer {
+            .loggedInUserPreview {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                color: $primaryTxt;
+                border-radius: 18px;
+                padding: 4px 8px 4px 6px;
+                cursor: pointer;
+                transition: all 0.1s;
+                &:hover {
+                    background-color: #3E4042;
+                }
+                strong {
+                    margin-bottom: 2px;
+                }
+            }
+            .isOwnProfile {
+                color: #428ff3;
+                background-color: rgb(89 161 255 / 20%);
+                opacity: 0.7;
+            }
+        }
+    }
+}
+

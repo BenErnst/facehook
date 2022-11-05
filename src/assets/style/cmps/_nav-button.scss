@@ -1,0 +1,25 @@
+.nav-btn {
+    transition: all 0.2s;
+    cursor: pointer;
+    border-radius: 6px 6px 0 0;
+    &:hover {
+        background: rgba(78, 78, 78, 0.479);
+    }
+    h5 {
+        margin: auto;
+        text-align: center;
+        color: $secondaryTxt;
+        font-size: 0.95rem;
+        font-weight: bold;
+    }
+}
+
+.active-btn {
+    border-bottom: 1px solid hsl(214, 100%, 59%);
+    &:hover {
+        background: none;
+    }
+    h5 {
+        color: hsl(214, 100%, 59%);
+    }
+}
