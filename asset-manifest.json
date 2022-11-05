@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/facehook/static/css/main.0efdb6a8.css",
+    "main.js": "/facehook/static/js/main.59d514bb.js",
+    "static/js/787.2dfe2702.chunk.js": "/facehook/static/js/787.2dfe2702.chunk.js",
+    "static/media/OpenSans-Bold.ttf": "/facehook/static/media/OpenSans-Bold.6e27168fc8a5a200a026.ttf",
+    "static/media/OpenSans-Light.ttf": "/facehook/static/media/OpenSans-Light.846a12caf01a940847a7.ttf",
+    "index.html": "/facehook/index.html",
+    "main.0efdb6a8.css.map": "/facehook/static/css/main.0efdb6a8.css.map",
+    "main.59d514bb.js.map": "/facehook/static/js/main.59d514bb.js.map",
+    "787.2dfe2702.chunk.js.map": "/facehook/static/js/787.2dfe2702.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0efdb6a8.css",
+    "static/js/main.59d514bb.js"
+  ]
+}
